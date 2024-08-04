@@ -1,6 +1,7 @@
 // components/Footer.js 10
 import React from "react";
 import "../app/Footer.module.css"
+import Image from "next/image";
 
 const Footer = () => {
   return (

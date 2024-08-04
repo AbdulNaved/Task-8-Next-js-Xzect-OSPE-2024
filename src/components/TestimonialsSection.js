@@ -1,5 +1,6 @@
 // components/TestimonialsSection.js  8888888888
 import React from "react";
+import Image from "next/image";
 
 const TestimonialsSection = () => {
   return (

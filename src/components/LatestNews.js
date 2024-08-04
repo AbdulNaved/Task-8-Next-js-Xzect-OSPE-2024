@@ -1,5 +1,6 @@
 // components/LatestNews.js 9
 import React from "react";
+import Image from "next/image";
 
 const LatestNews = () => {
   return (
