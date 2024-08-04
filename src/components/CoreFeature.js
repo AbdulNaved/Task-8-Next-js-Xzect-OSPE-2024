@@ -8,7 +8,7 @@ const CoreFeature = () => {
       <div className="flex flex-col lg:flex-row items-center lg:items-start bg-white rounded-lg shadow-md overflow-hidden">
         {/* Image Section */}
         <div className="w-full lg:w-1/2 h-64 lg:h-auto relative">
-          <img
+          <Image
             className="object-cover w-full h-full"
             src="https://www.iideainformatics.it/html/devgalaxy/ecofix/assets/img/choose_us.jpg"
             alt="Recycling Image"

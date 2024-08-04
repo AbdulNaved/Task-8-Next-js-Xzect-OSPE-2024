@@ -12,7 +12,7 @@ const Services = () => {
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/service/service_1.jpg"
                   alt="Collection Wastage"
@@ -53,7 +53,7 @@ const Services = () => {
             </div>
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/process/2.png"
                   alt="The 400 Blows"
@@ -94,7 +94,7 @@ const Services = () => {
             </div>
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/service/service_3.jpg"
                   alt="Shooting Stars"

@@ -1,12 +1,13 @@
 // components/Footer.js 10
 import React from "react";
 import "../app/Footer.module.css"
+
 const Footer = () => {
   return (
     <footer>
       <div className="flex w-full flex-wrap md:text-left text-center order-first bg-green-800 text-white py-12">
         <div className="flex lg:w-1/4 md:w-1/2 w-full px-4 mb-8 md:mb-0">
-          <img
+          <Image
             className="flex-wrap md:flex-wrap w-32 h-auto"
             src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/logo-white.png"
             alt="Ecofix Recycling Logo"

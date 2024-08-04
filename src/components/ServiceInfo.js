@@ -1,4 +1,4 @@
-// components/ServiceInfo.js actuly 3 aurat wala 
+// components/ServiceInfo.js actuly 3 aurat wala
 import Image from "next/image";
 import React from "react";
 

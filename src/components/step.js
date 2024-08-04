@@ -37,7 +37,7 @@ const Step = () => {
       <section className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="bg-white p-6 rounded text-black">
           <div className="bg-white">
-            <img
+            <Image
               className="flex justify-center iteam-center"
               src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/process/1.png"
               alt="Collection Wastage"
@@ -54,7 +54,7 @@ const Step = () => {
         </div>
         <div className="bg-white text-black p-6 rounded">
           <div>
-            <img
+            <Image
               className="flex justify-center iteam-center"
               src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/process/2.png"
               alt="Pickup Wastage"
@@ -71,7 +71,7 @@ const Step = () => {
         </div>
         <div className="bg-white text-black p-6 rounded">
           <div>
-            <img
+            <Image
               className="flex justify-center iteam-center"
               src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/process/3.png"
               alt="Reduce Garbage"
@@ -88,7 +88,7 @@ const Step = () => {
         </div>
         <div className="bg-white text-black p-6 rounded">
           <div>
-            <img
+            <Image
               className="flex justify-center iteam-center"
               src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/process/4.png"
               alt="Recycling Process"
