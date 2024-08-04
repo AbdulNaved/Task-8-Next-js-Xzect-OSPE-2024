@@ -1,6 +1,5 @@
-// components/LatestNews.js 9
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
 const LatestNews = () => {
   return (
@@ -17,6 +16,8 @@ const LatestNews = () => {
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/blog/1.jpg"
                   alt="blog"
+                  width={384} // Add width
+                  height={256} // Add height
                 />
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
@@ -42,6 +43,8 @@ const LatestNews = () => {
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/blog/2.jpg"
                   alt="blog"
+                  width={384} // Add width
+                  height={256} // Add height
                 />
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
@@ -67,6 +70,8 @@ const LatestNews = () => {
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/blog/3.jpg"
                   alt="blog"
+                  width={384} // Add width
+                  height={256} // Add height
                 />
                 <div className="p-6">
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">

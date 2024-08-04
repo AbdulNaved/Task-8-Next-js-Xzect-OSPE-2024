@@ -1,4 +1,6 @@
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image'; // Add this import statement
 
 const NavBar = () => {
   return (
@@ -10,6 +12,8 @@ const NavBar = () => {
               src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/logo.png"
               alt="Logo"
               className="w-24 md:w-32 lg:w-40"
+              width={160} // Add width (example value)
+              height={40} // Add height (example value)
             />
           </a>
         </Link>
@@ -22,7 +26,7 @@ const NavBar = () => {
       <div>
         <ul
           id="mobile-menu"
-          className="hidden md:flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-4  "
+          className="hidden md:flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-4"
         >
           <li>
             <Link href="/" legacyBehavior>

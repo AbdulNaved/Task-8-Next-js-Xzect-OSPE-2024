@@ -1,6 +1,5 @@
-// components/TestimonialsSection.js  8888888888
 import React from "react";
-import Image from "next/image";
+import Image from "next/image"; // Ensure this import is added
 
 const TestimonialsSection = () => {
   return (
@@ -11,12 +10,14 @@ const TestimonialsSection = () => {
             className="w-16 h-16 rounded-full"
             src="https://www.iideainformatics.it/html/devgalaxy/ecofix/assets/img/testimonial/1.jpg"
             alt="Pat Cummins"
+            width={64} // Add width
+            height={64} // Add height
           />
           <div>
             <p className="italic">
-              "They helped lead me through the process of system selection, site
+              &quot;They helped lead me through the process of system selection, site
               layout and place my order. They were informed and has provided
-              guidance each step."
+              guidance each step.&quot;
             </p>
             <p className="mt-2 font-bold">
               Pat Cummins, <span className="text-gray-500">Delta Inc.</span>
@@ -28,12 +29,14 @@ const TestimonialsSection = () => {
             className="w-16 h-16 rounded-full"
             src="https://www.iideainformatics.it/html/devgalaxy/ecofix/assets/img/testimonial/2.jpg"
             alt="Lin Nathasha"
+            width={64} // Add width
+            height={64} // Add height
           />
           <div>
             <p className="italic">
-              "They helped lead me through the process of system selection, site
+              &quot;They helped lead me through the process of system selection, site
               layout and place my order. They were informed and has provided
-              guidance each step."
+              guidance each step.&quot;
             </p>
             <p className="mt-2 font-bold">
               Lin Nathasha,{" "}
