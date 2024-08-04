@@ -1,4 +1,4 @@
-// components/LatestNews.js 999999999999999999999999
+// components/LatestNews.js 9
 import React from "react";
 
 const LatestNews = () => {
@@ -12,7 +12,7 @@ const LatestNews = () => {
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/blog/1.jpg"
                   alt="blog"

@@ -1,4 +1,5 @@
-// components/RecyclingSection.js   77777
+// components/RecyclingSection.js 7
+
 import React from "react";
 
 const RecyclingSection = () => {

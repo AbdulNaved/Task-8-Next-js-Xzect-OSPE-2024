@@ -6,7 +6,7 @@ const NavBar = () => {
       <div className="flex justify-between items-center w-full md:w-auto">
         <Link href="/" legacyBehavior>
           <a className="flex items-center">
-            <img
+            <Image
               src="https://iideainformatics.it/html/devgalaxy/ecofix/assets/img/logo.png"
               alt="Logo"
               className="w-24 md:w-32 lg:w-40"
