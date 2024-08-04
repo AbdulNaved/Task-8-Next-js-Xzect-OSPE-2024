@@ -23,7 +23,7 @@ const TestimonialsSection = () => {
           </div>
         </div>
         <div className="flex items-center space-x-4">
-          <img
+          <Image
             className="w-16 h-16 rounded-full"
             src="https://www.iideainformatics.it/html/devgalaxy/ecofix/assets/img/testimonial/2.jpg"
             alt="Lin Nathasha"
